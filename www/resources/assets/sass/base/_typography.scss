@@ -1,0 +1,32 @@
+// Typography
+.username {
+  font-weight: 700;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+#delete_dialog p {
+  font-weight: 400;
+}
+
+.discount {
+  &.oldprice {
+    color: grey;
+    font-style: italic;
+    text-decoration: line-through;
+  }
+  &.newprice {
+    font-size: 2rem;
+    color: green;
+  }
+}
+
+.rating {
+  .fa-star, .fa-star-half-o, .fa-star-o {
+    color: #FFC107;
+    margin: 0;
+  }
+}

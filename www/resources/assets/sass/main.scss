@@ -1,0 +1,60 @@
+/* Main
+========================= */
+
+.main {
+  padding: 20px;
+  .page-header {
+    margin-top: 0;
+  }
+}
+
+/* Misc
+========================= */
+
+.form-control:focus {
+  border-color: #8fb94d;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #8fb94d;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #8fb94d;
+}
+
+.discount {
+  &.oldprice {
+    color: grey;
+    font-style: italic;
+    text-decoration: line-through;
+  }
+  &.newprice {
+    font-size: 2rem;
+    color: green;
+  }
+}
+
+.rating {
+  .fa-star, .fa-star-half-o, .fa-star-o {
+    color: #FFC107;
+    margin: 0;
+  }
+}
+
+/* Media queries
+========================= */
+@media (max-width: 768px) {
+  ul.msg_list li:last-child a {
+    background: grey;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    border-color: black;
+    padding: 7px;
+  }
+  .dropdown-menu.msg_list {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}

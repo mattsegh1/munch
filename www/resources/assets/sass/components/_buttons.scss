@@ -1,0 +1,42 @@
+// Buttons
+
+.btn {
+  &:active, &:focus {
+    outline: none !important;
+  }
+  outline: none !important;
+}
+
+.btn-default {
+  color: #FFF;
+  background-color: #607C34;
+  border-color: #607C34;
+  &:hover, &:focus, &:target {
+    color: #FFF !important;
+    background-color: #8fb94d !important;
+    border-color: #8fb94d;
+    outline: none !important;
+  }
+  &:active {
+    background-color: #85AC46 !important;
+  }
+}
+
+.dropdown-menu li a {
+  color: #FFF;
+  &:hover {
+    color: #FFF;
+    background-color: #607C34;
+  }
+}
+
+.text_button {
+  &:focus, &:hover {
+    color: #23527c;
+  }
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  text-decoration: none;
+  color: #337ab7;
+}
